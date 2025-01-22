@@ -13,7 +13,10 @@ print("welcome to UCU!!!",user_name)
 Paul = "Handsome"
 Yolo = "Cute"
 
-Salim = 
+Salim = "Funny"
+
+print(Paul)
+
 
 
 
