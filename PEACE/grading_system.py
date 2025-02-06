@@ -18,8 +18,5 @@ if grade >= 80:
     print("you have grade A")
 elif grade >= 65: 
     print("you have grade B")
-elif grade >= 50:
-    print("you have grade C")
-else:
     print("you have grade F")
     
