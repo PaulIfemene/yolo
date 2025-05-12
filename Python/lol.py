@@ -34,16 +34,5 @@ def main():
     elif choice == 4:
         input_file = input("Enter document file path: ")
         output_file = input("Enter output file path: ")
-        doc_choice = int(input("Convert: 1. PDF to EPUB or 2. EPUB to PDF? "))
-
-        if doc_choice == 1:
-            document_converter.convert_pdf_to_epub(input_file, output_file)
-        elif doc_choice == 2:
-            document_converter.convert_epub_to_pdf(input_file, output_file)
-        else:
-            print("Invalid choice.")
-    else:
-        print("Invalid option.")
-
-if __name__ == "__main__":
+        doc_choice = int(input("Convert: 1. PDF to EPUB
     main()
